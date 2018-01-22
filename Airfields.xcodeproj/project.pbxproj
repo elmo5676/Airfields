@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3679F820154FA4003B6C07 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3679F720154FA4003B6C07 /* LoadViewController.swift */; };
+		6E86BD352012800600DE96B1 /* Airfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86BD342012800600DE96B1 /* Airfield.swift */; };
+		6E86BD372012847700DE96B1 /* AirfieldStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86BD362012847700DE96B1 /* AirfieldStore.swift */; };
 		6EAE857520118487000F056D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE857420118487000F056D /* AppDelegate.swift */; };
-		6EAE857720118487000F056D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE857620118487000F056D /* ViewController.swift */; };
 		6EAE857A20118487000F056D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE857820118487000F056D /* Main.storyboard */; };
 		6EAE857C20118487000F056D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE857B20118487000F056D /* Assets.xcassets */; };
 		6EAE857F20118487000F056D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE857D20118487000F056D /* LaunchScreen.storyboard */; };
 		6EAE858A20118487000F056D /* AirfieldsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE858920118487000F056D /* AirfieldsTests.swift */; };
 		6EAE859520118487000F056D /* AirfieldsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE859420118487000F056D /* AirfieldsUITests.swift */; };
+		6EAE85A3201184CA000F056D /* AirfileldTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE85A2201184CA000F056D /* AirfileldTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E3679F720154FA4003B6C07 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
+		6E86BD342012800600DE96B1 /* Airfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airfield.swift; sourceTree = "<group>"; };
+		6E86BD362012847700DE96B1 /* AirfieldStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirfieldStore.swift; sourceTree = "<group>"; };
 		6EAE857120118487000F056D /* Airfields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airfields.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAE857420118487000F056D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EAE857620118487000F056D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6EAE857920118487000F056D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EAE857B20118487000F056D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EAE857E20118487000F056D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		6EAE859020118487000F056D /* AirfieldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirfieldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAE859420118487000F056D /* AirfieldsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirfieldsUITests.swift; sourceTree = "<group>"; };
 		6EAE859620118487000F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EAE85A2201184CA000F056D /* AirfileldTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirfileldTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		6EAE857320118487000F056D /* Airfields */ = {
 			isa = PBXGroup;
 			children = (
-				6EAE857420118487000F056D /* AppDelegate.swift */,
-				6EAE857620118487000F056D /* ViewController.swift */,
 				6EAE857820118487000F056D /* Main.storyboard */,
+				6E3679F720154FA4003B6C07 /* LoadViewController.swift */,
+				6EAE857420118487000F056D /* AppDelegate.swift */,
+				6EAE85A2201184CA000F056D /* AirfileldTableViewController.swift */,
+				6E86BD342012800600DE96B1 /* Airfield.swift */,
+				6E86BD362012847700DE96B1 /* AirfieldStore.swift */,
 				6EAE857B20118487000F056D /* Assets.xcassets */,
 				6EAE857D20118487000F056D /* LaunchScreen.storyboard */,
 				6EAE858020118487000F056D /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAE857720118487000F056D /* ViewController.swift in Sources */,
+				6E3679F820154FA4003B6C07 /* LoadViewController.swift in Sources */,
+				6EAE85A3201184CA000F056D /* AirfileldTableViewController.swift in Sources */,
+				6E86BD352012800600DE96B1 /* Airfield.swift in Sources */,
 				6EAE857520118487000F056D /* AppDelegate.swift in Sources */,
+				6E86BD372012847700DE96B1 /* AirfieldStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
